@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{!! Form::submit('${1:Value}') !!}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fsubmit</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.laravel-blade</scope>
+</snippet>

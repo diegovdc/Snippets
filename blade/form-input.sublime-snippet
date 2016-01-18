@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{!! Form::${1:text/email/password/checkbox/radio/number} ('${2:for}', '${3:value=null?}' , ['class' => '${4:classes}', 'placeholder' => '${5:foo}', '${6:required}', '${7:otherattr}' => '${8:foo...}']) !!}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>finput</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.laravel-blade</scope>
+</snippet>

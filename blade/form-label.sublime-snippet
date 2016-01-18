@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{!! Form::label ('${1:for}', '${2:Value}', ['class' => '${3:classes}', ${4:'attr' => 'foo...'}]) !!}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>flabel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.laravel-blade</scope>
+</snippet>

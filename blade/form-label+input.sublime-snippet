@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+{!! Form::label ('${1:for}', '${2:Value}', ['class' => '${3:classes}', ${4:'attr' => 'foo...'}]) !!}
+{!! Form::${5:text/email/password/checkbox/radio/number} ('${1:for}', '${6:Value}' , ['class' => '${7:classes}', 'placeholder' => '${8:foo}', ${9:required}, ${10:'attr' => 'foo...'}] !!}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>flabin</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.laravel-blade</scope>
+</snippet>

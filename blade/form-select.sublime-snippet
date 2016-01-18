@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{!! Form::select('${1:Nombre}', ['${2:name1}' => '${3:value1}', '${4:name2}' => '${5:value2}', '${6:name3}' => '${7:value3}'], null, ['class' => 'my_class']) !!}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fselect</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.laravel-blade</scope>
+</snippet>
