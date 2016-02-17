@@ -1,0 +1,67 @@
+<snippet>
+	<content><![CDATA[
+<form class="contactForm" action="">
+	<!-- NOMBRE -->	
+		<div class="layoutclass">
+			<label class="contactForm__label" for="nombre">Nombre</label>
+			<input 	class="contactForm__input" 
+					type="text" 
+					placeholder=""
+					id="nombre" 
+					name="contactForm_JS[nombre]"
+					required
+					/>
+		</div>
+		
+	<!-- TELÉFONO -->	
+		<div class="layoutclass">
+			<label class="contactForm__label" for="telefono">Teléfono</label>
+			<input 	class="contactForm__input" 
+					type="text"
+					placeholder=""
+					id="telefono"
+					name="contactForm_JS[telefono]"
+					/>
+		</div>
+		
+	<!-- CORREO -->	
+		<div class="layoutclass">
+			<label class="contactForm__label" for="correo">Correo</label>
+			<input 	class="contactForm__input" 
+					type="text" 
+					placeholder=""
+					id="correo" 
+					name="contactForm_JS[correo]"
+					required 
+					/>
+		</div>
+		
+
+	<!-- MENSAJE -->
+		<div class="layoutclass">
+			<label class="contactForm__label" for="mensaje">Mensaje</label>
+			<textarea 	class="contactForm__textarea" 
+						placeholder=""
+						id="mensaje"
+						name="contactForm_JS[mensaje]"
+						form="contactForm_JS"
+						required
+						></textarea>
+		</div>	
+
+	<!-- ENVIAR -->
+		<div class="layoutclass">		
+			<input 	class="contactForm__button" 
+					id="contactForm__submit" 
+					form="contactForm_JS"
+					type="submit" 
+					value="Enviar" />
+		</div>	
+	</form>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jquerycontactform</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+</snippet>

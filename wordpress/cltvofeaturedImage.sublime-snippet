@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-@include respond-to(chico${1:extra})${3} { ${2:properties} }
+${1:\$imagen} = new Cltvo_Img(${2:get_post_thumbnail_id(\$post->ID)});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>r1</tabTrigger>
+	<tabTrigger>cltvofeaturedimage</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.scss</scope>
+	<scope>source.php</scope>
 </snippet>
