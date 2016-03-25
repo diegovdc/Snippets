@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+<?php
+$idiomas = qtranxf_getSortedLanguages();
+?>
+<?php foreach ($idiomas as $key => $idioma): ?>	
+	  <a 	class="menuTop__link--lang  <?php echo ($idioma == qtranxf_getLanguage() ) ? 'link--active' : '' ;?>"
+			href="<?php echo qtranxf_get_url_for_language( $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"], $idioma ); ?>"
+	  >
+	  	<?php echo substr(qtranxf_getLanguageNameNative($idioma), 0, 3); ?>
+	  </a>
+
+	<?php endforeach ?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>qtranslatelangmenu</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+</snippet>

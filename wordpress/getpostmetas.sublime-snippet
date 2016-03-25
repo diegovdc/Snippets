@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+${1:\$meta} = get_post_meta(\$post->ID, ${2:key = ''}, ${3:single = false} );
+${1:\$meta} = is_array(${1:\$meta}) ? ${1:\$meta} : '';
+vd( ${1:\$meta} ); 
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>getmetas</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

@@ -1,9 +1,14 @@
 <snippet>
 	<content><![CDATA[
-@include respond-to(chico${1:extra})${3} { ${2:properties} }
+$args = array(
+	'post_parent'	=> 	'0',
+	'post_type'	=> 	'${2:post}',
+	'post_status'	=> 	'publish'
+	);
+${1:\$query} = new WP_Query($args);
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>r1</tabTrigger>
+	<tabTrigger>getmetas</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.scss</scope>
+	<scope>source.php</scope>
 </snippet>

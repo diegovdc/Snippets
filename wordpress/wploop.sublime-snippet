@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<?php if ( ${1:\$query}->have_posts() ) : while ( ${1:\$query}->have_posts() ) : ${1:\$query}->the_post(); ?>
+<?php endwhile; else : ?>
+	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+<?php endif; ?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wploop</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+</snippet>
