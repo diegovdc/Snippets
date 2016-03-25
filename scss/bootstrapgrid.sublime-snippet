@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+// Usando el grid de Bootstrap
+@import "vendor/bootstrap/assets/stylesheets/bootstrap/_variables";
+@import "vendor/bootstrap/assets/stylesheets/bootstrap/mixins/_grid-framework";
+@import "vendor/bootstrap/assets/stylesheets/bootstrap/mixins/_grid";
+@import "vendor/bootstrap/assets/stylesheets/bootstrap/_grid";
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bootstrapgrid</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scss</scope>
+</snippet>

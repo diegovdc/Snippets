@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+\$custom_post_type = array(
+  'name' => _x('Custom Posts', 'the custom posts', 'your_text_domain'),
+  'singular_name' => _x('Custom Post', 'the custom post', 'your_text_domain'),
+  'add_new' => _x('Add New', 'custom-post', 'your_text_domain'),
+  'add_new_item' => __('Add New Custom Post', 'your_text_domain'),
+  'edit_item' => __('Edit Custom Post', 'your_text_domain'),
+  'new_item' => __('New Custom Post', 'your_text_domain'),
+  'all_items' => __('All Custom Posts', 'your_text_domain'),
+  'view_item' => __('View Custom Post', 'your_text_domain'),
+  'search_items' => __('Search Custom Post', 'your_text_domain'),
+  'not_found' =>  __('No custom posts found', 'your_text_domain'),
+  'not_found_in_trash' => __('No custom posts found in Trash', 'your_text_domain'),
+  'parent_item_colon' => '',
+  'menu_name' => __('Custom Posts', 'your_text_domain')
+);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>customposttype</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

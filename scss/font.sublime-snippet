@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-<script src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.js"></script>
+@include declara-font-face(Minion, '../fonts/MinionPro-Bold', bold, italic);
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>vuejs</tabTrigger>
+	<tabTrigger>font</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.html, source.php, text.html.basic, text.html.laravel-blade</scope>
+	<scope>source.scss</scope>
 </snippet>
