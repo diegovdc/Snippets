@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+&#123;&#123; ${1} &#125;&#125;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mustaches</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php, source.html, text.blade, text.html.blade</scope>
+</snippet>
